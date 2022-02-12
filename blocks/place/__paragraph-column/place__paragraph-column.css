@@ -1,0 +1,24 @@
+.place__paragraph-column {
+	max-width: 484px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+	.place__paragraph-column {
+		max-width: 456px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.place__paragraph-column {
+		max-width: 352px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.place__paragraph-column {
+		max-width: 288px;
+	}
+}

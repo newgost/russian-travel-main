@@ -1,0 +1,7 @@
+.header__link {
+	max-width: 77px;
+	display: flex;
+	justify-content: space-between;
+	align-self: flex-start;
+	list-style-type: none;
+}

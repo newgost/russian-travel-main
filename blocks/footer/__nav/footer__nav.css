@@ -1,0 +1,18 @@
+.footer__nav {
+	margin-top: 92px;
+	margin-bottom: 24px;
+}
+
+@media screen and (max-width: 736px) {
+	.footer__nav {
+		margin-top: 64px;
+		margin-bottom: 48px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.footer__nav {
+		margin-top: 64px;
+		margin-bottom: 48px;
+	}
+}

@@ -1,0 +1,20 @@
+.cover_overlay::before {
+	content: '';
+	display: block;
+	width: 100%;
+	padding-bottom: 62.5%;
+	background: #2A2C2F;
+  opacity: 0.3;
+}
+
+.cover_overlay:hover::before {
+	opacity: 0.8;
+	transition: opacity linear .5s;
+}
+
+
+
+
+
+
+
