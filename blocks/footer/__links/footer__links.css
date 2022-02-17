@@ -12,12 +12,14 @@
     margin-bottom: 32px;
     align-self: center;   
   }
+
+  .footer__links:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .footer__links {
-    margin-right: 0;
-    margin-bottom: 32px;
     align-self: flex-start;   
   }
 }

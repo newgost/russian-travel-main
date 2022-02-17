@@ -1,53 +1,52 @@
 .intro {
-	max-width: 690px;
-	margin-left: 148px;
-	margin-right: 442px;
-	margin-bottom: 92px;
+  max-width: 690px;
+  margin-left: 148px;
+  margin-right: 442px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
-	.intro {
-		margin-left: 48px;
+  .intro {
+	  margin-left: 48px;
 	  margin-right: 286px;   
-	}
+  }
 }
 
 @media screen and (max-width: 768px) {
-	.intro {
-		max-width: 720px;
-		margin: 0 auto;
-		margin-bottom: 88px;
-	}
+  .intro {
+	  max-width: 720px;
+	  margin: 0 auto;
+	  margin-bottom: 88px;
+  }
 }
 
 @media screen and (max-width: 756px) {
-	.intro {
-		max-width: 520px;	
-	}
+  .intro {
+	  max-width: 520px;	
+  }
 }
 
 @media screen and (max-width: 572px) {
-	.intro {
-		max-width: 420px;
-	}
+  .intro {
+	  max-width: 420px;
+  }
 }
 
 @media screen and (max-width: 467px) {
-	.intro {
-		max-width: 320px;
-	}
+  .intro {
+	  max-width: 320px;
+  }
 }
 
 @media screen and (max-width: 376px) {
-	.intro {
-		max-width: 288px;
-	}
+  .intro {
+	  max-width: 288px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-	.intro {
-		max-width: 288px;
-		margin: 0 auto;
-		margin-bottom: 64px;
-	}
+  .intro {
+	  margin: 0 auto;
+	  margin-bottom: 64px;
+  }
 }

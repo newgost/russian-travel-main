@@ -1,0 +1,9 @@
+.place__word-wrap {
+  display: block;
+}
+
+@media screen and (max-width: 320px) {
+  .place__word-wrap {
+    display: inline;   
+  }
+}

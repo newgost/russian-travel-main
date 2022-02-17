@@ -1,34 +1,33 @@
 .place__website {
-	max-width: 456px;
-	align-self: flex-end;
-	margin-left: 40px;
+  max-width: 456px;
+  align-self: flex-end;
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 1024px) {
-	.place__website {
-		max-width: 352px;
-		margin-left: 32px;
-	}
+  .place__website {
+    max-width: 352px;
+    margin-left: 32px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-	.place__website {
-		max-width: 352px;
-		margin-left: 28px;
-	}
+  .place__website {
+    margin-left: 28px;
+  }
 }
 
 @media screen and (max-width: 740px) {
-	.place__website {
-		align-self: flex-start;
-		margin-top: 32px;
-		margin-left: 0; 
-	}
+  .place__website {
+    align-self: center;
+    margin-top: 32px;
+    margin-left: 0; 
+  }
 }
 
 @media screen and (max-width: 320px) {
-	.place__website {
-		max-width: 288px;
-		align-items: flex-start;
-	}
+  .place__website {
+    max-width: 288px;
+    align-self: flex-start;
+  }
 }

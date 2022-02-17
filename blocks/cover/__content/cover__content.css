@@ -1,13 +1,25 @@
 .cover__content {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	color: #FFFFFF;
+  max-width: 1024px;
+  min-height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__content {
+    max-width: 768px;
+    min-height: 480px;    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__content {
+    max-width: 320px;
+    min-height: 200px;
+  }
 }
